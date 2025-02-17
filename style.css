@@ -1,0 +1,74 @@
+* {
+    outline: 2px solid red;
+  }
+
+body {
+    height: 100vh;
+    margin: 0;  
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 0% 12.5%;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.header-bottom {
+    display: flex;
+    gap: 64px;
+    margin: 64px 0px;
+    border-color: aliceblue;
+}
+
+.header-bottom-left-side {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    justify-content: space-between;
+}
+
+.awasome-header{
+    margin: 0px;
+}
+
+.btn-signup {
+    align-self: baseline;
+}
+
+.signup-text{
+    text-wrap: wrap;
+    size: auto;
+}
+
+.header-image {
+    /*padding: 64px;*/
+}
+
+
+ul {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 16px;
+}
+
+a {
+    font-size: 24PX;
+    color: white;
+    text-decoration: none;
+}
