@@ -1,32 +1,64 @@
 * {
-    outline: 2px solid red;
-  }
+    /*outline: 2px solid red;*/
+}
 
 body {
     height: 100vh;
-    margin: 0;  
+    margin: 0;
+    background-color: #1F2937;
+    font-family: 'Roboto', Times, serif;
 }
 
-.header {
+ul {
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    background-color: aquamarine;
-    padding: 0% 12.5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    padding-left: 16px;
+}
+
+a {
+    font-size: 24PX;
+    color: white;
+    text-decoration: none;
+}
+
+.top-of-page {
+    background-color: #1F2937;
+    padding: 1% 25% 3% 25%;
+}
+
+.logo {
+    width: auto;
+    height: 48px;
+    background-color: white;
+}
+
+.awasome-header {
+    margin: 0px;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.signup-text {
+    color: white;
+    font-size: 18px;
 }
 
 .header-navigation {
     display: flex;
     justify-content: space-between;
-}
-
-.logo{
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
+    align-items: center;
 }
 
 .header-bottom {
     display: flex;
+    justify-content: space-between;
     gap: 64px;
     margin: 64px 0px;
     border-color: aliceblue;
@@ -39,36 +71,44 @@ body {
     justify-content: space-between;
 }
 
-.awasome-header{
-    margin: 0px;
+.middle-of-page {
+    background-color: rgb(163, 255, 127);
+    padding: 1% 25% 3% 25%;
+}
+
+.middle-of-page-header {
+    text-align: center;
+}
+
+.info-cards {
+    margin-top: 50px;
+    display: flex;
+}
+
+.card {
+    margin-right: 50px;
+}
+
+.card-image{
+    border-radius: 10%;
 }
 
 .btn-signup {
     align-self: baseline;
 }
 
-.signup-text{
-    text-wrap: wrap;
-    size: auto;
-}
-
-.header-image {
-    /*padding: 64px;*/
-}
-
-
-ul {
-    padding: 0px;
-    list-style: none;
+.third-part-of-page {
+    padding: 1% 25% 3% 25%;
+    background-color: #E5E7EB;
+    text-align: center;
+    flex-wrap: wrap;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-li {
-    margin: 16px;
-}
-
-a {
-    font-size: 24PX;
-    color: white;
-    text-decoration: none;
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
